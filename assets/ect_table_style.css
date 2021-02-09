@@ -1,0 +1,122 @@
+.ect_table form.variations_form.cart {
+    display: block;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+
+.ect_table form.cart {
+
+    margin: 0 !important;
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+
+}
+
+.ect_table form.cart>.quantity {
+    align-self: center;
+}
+
+.ect_table input.input-text {
+    width: 80%;
+}
+
+.ect_table button.single_add_to_cart_button.button.alt {
+    padding: 0px;
+    height: 42px;
+    width: 100%;
+    align-self: center;
+}
+
+.ect_table .woocommerce-variation-add-to-cart.variations_button {
+
+    display: grid;
+    grid-template-columns:  2fr 3fr;
+
+}
+
+.ect_table table.variations {
+    margin: 0;
+}
+
+.ect_table table.variations>tbody>tr {
+
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+
+}
+
+
+
+.ect_table table.variations td.value>select {
+
+    width: 100%;
+    padding: 0;
+    height: 27px;
+}
+
+.ect_table>div {
+
+    text-align: center;
+    margin: auto 0;
+
+}
+
+.ect_table:nth-child(2n) {
+
+    background-color: #eee;
+
+}
+
+.ect_table>div>img {
+
+    vertical-align: middle;
+
+}
+
+.ect_table {
+
+    padding: 10px 0;
+
+}
+
+.ect_table>a {
+
+    align-self: center;
+
+}
+
+#ect_single_heading {
+
+    background-color: #ccc;
+
+}
+
+.ect_table .stock {
+
+    margin: 0;
+
+}
+
+.ect_table .ect_stock {
+
+    text-transform: capitalize;
+
+}
+
+.ect_table td {
+
+    padding: 0;
+
+}
+
+.ect_table .variations .label {
+
+    margin-top: 5px!important;
+
+}
+
+.ect_table .woocommerce-variation-add-to-cart.variations_button .quantity {
+
+    align-self: center;
+
+}
